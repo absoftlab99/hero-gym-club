@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react';
 import profile from '../../images/mahmud.jpg';
 import { breakTimeStore, getStoredBreakTime } from '../../Utility/Utility';
 import './Aside.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Aside = (props) => {
+    const notify = () => toast("Activity Completed");
     const [breakTime, setBreakTime] = useState(0);
     const addBreakTime = (time) => {
         setBreakTime(time);
@@ -11,7 +14,7 @@ const Aside = (props) => {
     }
 
     useEffect(()=>{
-        const storedBreakTimeData = getStoredBreakTime();
+        const storedBreakTimeData = getStoredBreakTime() || 0;
         addBreakTime(storedBreakTimeData);
     },[]);
 
@@ -76,7 +79,8 @@ const Aside = (props) => {
             </div>
 
             <div className='p-3'>
-                <button className='btn btn-success btn-lg w-100 ff-poppins'>Activity Completed</button>
+                <button onClick={notify} className='btn btn-success btn-lg w-100 ff-poppins'>Activity Completed</button>
+                <ToastContainer />
             </div>
         </div>
     );
