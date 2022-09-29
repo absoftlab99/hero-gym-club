@@ -7,7 +7,7 @@ import './Aside.css';
 
 const Aside = () => {
     return (
-        <div className='col-3 bg-dark'>
+        <div className='col-lg-3 col-md-5 col-sm-12 bg-dark'>
             <Profile></Profile>
             <Break></Break>
             <Times></Times>

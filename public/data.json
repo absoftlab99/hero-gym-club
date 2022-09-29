@@ -1,7 +1,7 @@
 [
 {
     "id": "1",
-    "time": "5",
+    "time": "50",
     "picture": "https://i.ibb.co/rpZYGYb/swiming.png",
     "description": "The sport or activity of propelling oneself through water using the limbs.",
     "name": "Swimming",
@@ -9,7 +9,7 @@
 },
 {
     "id": "2",
-    "time": "10",
+    "time": "30",
     "picture": "https://i.ibb.co/p1yqHxL/archering.png",
     "description": "The sport or skill of shooting with a bow and arrows, especially at a target.",
     "name": "Archery",
@@ -17,7 +17,7 @@
 },
 {
     "id": "3",
-    "time": "8",
+    "time": "80",
     "picture": "https://i.ibb.co/5Wv0dp5/boxing.png",
     "description": "The sport or practice of fighting with the fists, especially with padded.",
     "name": "Boxing",
@@ -41,7 +41,7 @@
 },
 {
     "id": "6",
-    "time": "5",
+    "time": "50",
     "picture": "https://i.ibb.co/h1GDZx3/push-up.png",
     "description": "Even 50 to 100 push-ups should be enough to maintain.",
     "name": "Push-up",
@@ -49,7 +49,7 @@
 },
 {
     "id": "7",
-    "time": "10",
+    "time": "60",
     "picture": "https://i.ibb.co/80yDSZP/running.png",
     "description": "Jogging provides an aerobic workout. Jogging is a type of exercise that.",
     "name": "Jogging",
@@ -57,7 +57,7 @@
 },
 {
     "id": "8",
-    "time": "3",
+    "time": "30",
     "picture": "https://i.ibb.co/R7D6GBj/weight-up.png",
     "description": "Weight training is a type of strength training that uses weights for.",
     "name": "Weight Lifting",

@@ -5,11 +5,11 @@ import './Profile.css';
 const Profile = () => {
     return (
         <div>
-            <div className='pt-5 p-2 profile'>
-            <div className="img">
-                <img className='profile-img border' src={profile} alt="" />
-            </div>
-            <div className="info ps-2 ff-poppins">
+            <div className='pt-5 p-2 profile row'>
+                <div className="col-3">
+                    <img className='profile-img border' src={profile} alt="" />
+                </div>
+            <div className="col-9 info ps-2 ff-poppins">
                 <div className="name">
                     <h5 className='fw-bolder text-light'>Abdullah Al Mahmud</h5>
                 </div>
