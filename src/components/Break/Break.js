@@ -5,12 +5,12 @@ const Break = () => {
     return (
         <div className='p-2 justify-content-center'>
             <h4 className='ff-poppins fw-bold text-light'>Add a Break</h4>
-            <div className="row bg-warning gap-1 p-3 py-4 rounded-3 break mx-0">
-                <div className="col-2 rounded-3 text-center"><button className='btn btn-dark fw-bolder'>10</button></div>
-                <div className="col-2 rounded-3 text-center"><button className='btn btn-dark fw-bolder'>15</button></div>
-                <div className="col-2 rounded-3 text-center"><button className='btn btn-dark fw-bolder'>20</button></div>
-                <div className="col-2 rounded-3 text-center"><button className='btn btn-dark fw-bolder'>25</button></div>
-                <div className="col-2 rounded-3 text-center"><button className='btn btn-dark fw-bolder'>30</button></div>
+            <div className="row bg-warning gap-2 p-3 py-4 rounded-3 break mx-0 ps-4">
+                <div className="col-2 rounded-3 text-center p-0"><button className='btns btn btn-dark fw-bolder'>10s</button></div>
+                <div className="col-2 rounded-3 text-center p-0"><button className='btns btn btn-dark fw-bolder'>15s</button></div>
+                <div className="col-2 rounded-3 text-center p-0"><button className='btns btn btn-dark fw-bolder'>20s</button></div>
+                <div className="col-2 rounded-3 text-center p-0"><button className='btns btn btn-dark fw-bolder'>25s</button></div>
+                <div className="col-2 rounded-3 text-center p-0"><button className='btns btn btn-dark fw-bolder'>30s</button></div>
             </div>
         </div>
     );

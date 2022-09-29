@@ -1,5 +1,6 @@
 import React from 'react';
 import Break from '../Break/Break';
+import Button from '../Button/Button';
 import Profile from '../Profile/Profile';
 import Times from '../Times/Times';
 import './Aside.css';
@@ -10,6 +11,7 @@ const Aside = () => {
             <Profile></Profile>
             <Break></Break>
             <Times></Times>
+            <Button></Button>
         </div>
     );
 };

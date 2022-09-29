@@ -4,7 +4,8 @@
 .bg-newgray{
     background-color:rgb(238, 238, 238);
 }
-.btn{
+.btns{
     border-radius: 50%;
     line-height: 29px;
+    font-size:12px;
 }

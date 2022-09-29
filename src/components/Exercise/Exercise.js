@@ -13,7 +13,7 @@ const Exercise = (props) => {
                     <h6 className='pt-2'>For Age: {age}</h6>
                     <h6>Time required: {time}</h6>
                 </div>
-                <a href="/" className="btn btn-warning m-3 mt-0 rounded-3">Add To List</a>
+                <button className="btn btn-warning m-3 mt-0 rounded-3">Add To List</button>
             </div>
         </div>
     );
