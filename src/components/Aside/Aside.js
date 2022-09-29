@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import profile from '../../images/mahmud.jpg';
+import { breakTimeStore, getStoredBreakTime } from '../../Utility/Utility';
 import './Aside.css';
 
-const Aside = () => {
+const Aside = (props) => {
     const [breakTime, setBreakTime] = useState(0);
     const addBreakTime = (time) => {
         setBreakTime(time);
-        // breakTimeStore(time);
+        breakTimeStore(time);
     }
 
-    // useEffect(()=>{
-    //     const storedBreakTimeData = getStoredBreakTime();
-    //     addBreakTime(storedBreakTimeData);
-    // },[]);
+    useEffect(()=>{
+        const storedBreakTimeData = getStoredBreakTime();
+        addBreakTime(storedBreakTimeData);
+    },[]);
 
     return (
         <div className='col-lg-3 col-md-5 col-sm-12 bg-dark'>
@@ -65,7 +66,7 @@ const Aside = () => {
                 <h4 className='ff-poppins fw-bold text-light'>Exercise Details</h4>
                 <div className="row bg-warning rounded-3 break mx-0">
                     <div className="col-7 time"><h5 className=''>Exercise time</h5></div>
-                    <div className="col-5 times"><p className='text-muted'><span id='exercise-time'>0</span> seconds</p></div>
+                    <div className="col-5 times"><p className='text-muted'><span id='exercise-time'>{props.totalRequiredTime}</span> seconds</p></div>
                 </div>
 
                 <div className="row bg-warning rounded-3 break mx-0 mt-4">

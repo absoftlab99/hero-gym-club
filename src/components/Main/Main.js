@@ -3,7 +3,7 @@ import Blogs from '../Blogs/Blogs';
 import Exercise from '../Exercise/Exercise';
 import Header from '../Header/Header';
 
-const Main = () => {
+const Main = ({addTotalTime}) => {
     const [exercises, setExcercises] = useState([]);
     useEffect(() => {
         fetch('data.json')
@@ -19,6 +19,7 @@ const Main = () => {
                 exercises.map(exercise => <Exercise
                     key={exercise.id}
                     exercise ={exercise}
+                    addTotalTime={addTotalTime}
                     ></Exercise>)
             }
             </div>
