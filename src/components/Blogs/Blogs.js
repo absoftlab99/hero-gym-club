@@ -23,14 +23,14 @@ const Blogs = () => {
                     Here is an example of React code written using JSX:
                     <img className='py-3' src={code2} alt="" /><br></br>
 
-                    The following is a breakdown of the HTML tags above:
+                    The following is a breakdown of the HTML tags above:</p>
                     <ul>
                         <li><b>MyCounter</b> represents a variable called count whose value is a numeric expression.</li>
                         <li><b>GameScores</b> is an object literal that has two prop-value pairs.</li>
                         <li><b>DashboardUnit</b> is the XML block that is rendered on the page.</li>
                         <li><b>scores</b> is the scores attribute. It gets its value from the GameScores object literal defined earlier.</li>
                     </ul><br></br>
-
+                    <p>
                     A React app usually has a single root DOM node. Rendering an element into the DOM will change the user interface of the page.<br></br>
                     For instance, the following code displays “Hello World” on the page by rendering the element into a DOM node called root.<br></br>
 
@@ -56,7 +56,7 @@ const Blogs = () => {
                 </div>
                 <div className="col-12">
                     <h1 className='fw-bolder'>Blog-3: What else is 'useEffect' used for besides loading data with the API?</h1>
-                    <p className=''>Beside for data load through API using Use, Effect is also used for the following- <br></br><br></br>
+                    <p className=''>Beside for data load through API using Use, Effect is also used for the following- </p><br></br><br></br>
                         <ul>
                             <li><b>Running on state change:</b> validating input field</li>
                             <li><b>Running on state change:</b> live filtering</li>
@@ -64,7 +64,6 @@ const Blogs = () => {
                             <li><b>Running on props change:</b> update paragraph list on fetched API data update</li>
                             <li><b>Running on props change:</b> updating fetched API data to get BTC updated price</li>
                         </ul>
-                    </p>
                 </div>
             </div>
         </div>
