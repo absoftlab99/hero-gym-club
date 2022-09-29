@@ -11,7 +11,7 @@
     "id": "2",
     "time": "10",
     "picture": "https://i.ibb.co/p1yqHxL/archering.png",
-    "description": "the sport or skill of shooting with a bow and arrows, especially at a target.",
+    "description": "The sport or skill of shooting with a bow and arrows, especially at a target.",
     "name": "Archery",
     "age": "10-30"
 },
@@ -19,7 +19,7 @@
     "id": "3",
     "time": "8",
     "picture": "https://i.ibb.co/5Wv0dp5/boxing.png",
-    "description": "The sport or practice of fighting with the fists, especially with padded gloves in a roped square ring according to prescribed rules.",
+    "description": "The sport or practice of fighting with the fists, especially with padded.",
     "name": "Boxing",
     "age": "15-30"
 },
@@ -27,7 +27,7 @@
     "id": "4",
     "time": "30",
     "picture": "https://i.ibb.co/Sd08BkB/cyciling.png",
-    "description": "Exercising on the bike for at least 30 minutes a day will build up your cardiovascular and muscular endurance.",
+    "description": "Exercising on the bike for at least 30 minutes a day will build up.",
     "name": "Cycling",
     "age": "15-45"
 },
@@ -35,7 +35,7 @@
     "id": "5",
     "time": "10",
     "picture": "https://i.ibb.co/g93z2NQ/plank.png",
-    "description": "Activity requiring physical effort, carried out to sustain or improve health and fitness.",
+    "description": "Activity requiring physical effort, carried out to sustain or improve.",
     "name": "Exercise",
     "age": "15-45"
 },
@@ -43,7 +43,7 @@
     "id": "6",
     "time": "5",
     "picture": "https://i.ibb.co/h1GDZx3/push-up.png",
-    "description": "Even 50 to 100 push-ups should be enough to maintain a good upper body, provided it is done properly.",
+    "description": "Even 50 to 100 push-ups should be enough to maintain.",
     "name": "Push-up",
     "age": "18-30"
 },
@@ -51,7 +51,7 @@
     "id": "7",
     "time": "10",
     "picture": "https://i.ibb.co/80yDSZP/running.png",
-    "description": "Jogging provides an aerobic workout. Jogging is a type of exercise that involved running at a slow pace.",
+    "description": "Jogging provides an aerobic workout. Jogging is a type of exercise that.",
     "name": "Jogging",
     "age": "18-50"
 },
@@ -59,7 +59,7 @@
     "id": "8",
     "time": "3",
     "picture": "https://i.ibb.co/80yDSZP/running.png",
-    "description": "Weight training is a type of strength training that uses weights for resistance.",
+    "description": "Weight training is a type of strength training that uses weights for.",
     "name": "Weight Lifting",
     "age": "20-30"
 },
@@ -67,7 +67,7 @@
     "id": "9",
     "time": "10",
     "picture": "https://i.ibb.co/s9NJQBf/yoga.png",
-    "description": "Yoga has been found to improve quality of life, reduce stress, anxiety, insomnia, depression and back pain.",
+    "description": "Yoga has been found to improve quality of life, reduce stress, anxiety.",
     "name": "Yoga",
     "age": "15-30"
 }
