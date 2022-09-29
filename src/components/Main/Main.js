@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Blogs from '../Blogs/Blogs';
 import Exercise from '../Exercise/Exercise';
 import Header from '../Header/Header';
 
@@ -21,6 +22,7 @@ const Main = () => {
                     ></Exercise>)
             }
             </div>
+            <Blogs></Blogs>
         </div>
     );
 };

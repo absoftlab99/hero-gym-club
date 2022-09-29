@@ -8,10 +8,10 @@ const Exercise = (props) => {
             <div className="card rounded-4">
                 <img className="p-3 pb-0" src={picture} alt=""/>
                 <div className="card-body">
-                    <h5 className="card-title">{name}</h5>
-                    <small className="card-text text-justify">{description}</small>
-                    <h6 className='pt-2'>For Age: {age}</h6>
-                    <h6>Time required: {time}<span>s</span></h6>
+                    <h5 className="card-title fw-bolder">{name}</h5>
+                    <small className="card-text text-justify text-muted">{description}</small>
+                    <h6 className='pt-4'>For Age: <span className='fw-bolder'>{age}</span></h6>
+                    <h6 className='time p-0'>Time required: <span className='fw-bolder' id='time'>{time}</span>s</h6>
                 </div>
                 <button className="btn btn-warning m-3 mt-0 rounded-3">Add To List</button>
             </div>

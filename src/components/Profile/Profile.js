@@ -14,7 +14,7 @@ const Profile = () => {
                     <h5 className='fw-bolder text-light'>Abdullah Al Mahmud</h5>
                 </div>
                 <div className="text-light text-opacity-75">
-                    <p><i class="fa-solid fa-location-dot"></i> Dinajpur, Bangladesh</p>
+                    <p><i className='fa-solid fa-location-dot'></i> Dinajpur, Bangladesh</p>
                 </div>
             </div>
         </div>
